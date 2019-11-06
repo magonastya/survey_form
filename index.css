@@ -1,0 +1,19 @@
+body {
+	background: url(https://i.pinimg.com/564x/07/d7/7d/07d77d340f26dd5446001a7e2ca6f64d.jpg);
+	text-align: center;
+	font: 1em sans-serif;
+	padding: 0;
+	margin: 0;
+}
+h1 {
+	font-size: 50px;
+}
+p {
+	font-size: 30px;
+}
+#fieldset {
+	width: 45%;
+	background-color: #b3201b;
+	opacity: 0.9;
+	margin: auto;
+}

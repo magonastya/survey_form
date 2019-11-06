@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<link rel="stylesheet" href="./index.css" />
+		<title>Document</title>
+	</head>
+	<body>
+		<h1 id="title">Russian Empire</h1>
+		<fieldset id="fieldset">
+			<legend>Survey Form</legend>
+			<p id="description" class="one">
+				<strong>Do you have the royal blood?!</strong>
+			</p>
+			<form id="survey-form">
+				<label for="name" id="name-label">Name</label>
+				<br />
+				<input
+					type="text"
+					id="name"
+					name="name"
+					placeholder="Enter your name"
+				/>
+				<br /><br />
+				<label for="email" id="email-label">Email</label><br />
+				<input
+					type="text"
+					id="email"
+					name="email"
+					required
+					placeholder="Enter your email"
+				/>
+				<br /><br />
+				<label for="number" id="number-label">Age</label><br />
+				<input
+					id="number"
+					name="age"
+					required
+					type="number"
+					name="age"
+					min="18"
+					max="99"
+					value="21"
+					placeholder="Age"
+				/>
+				<br /><br />
+				<label for="">How do you know about your royal roots?</label><br />
+				<select name="dropdown" id="dropdown">
+					<option value="1">Parents</option>
+					<option value="2">Documents</option>
+					<option value="3">Research</option>
+					<option value="4">I dont have prooves</option>
+				</select>
+				<br /><br />
+				<button type="submit">Submit</button>
+			</form>
+		</fieldset>
+	</body>
+</html>
